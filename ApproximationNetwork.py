@@ -1,4 +1,7 @@
 import torch
+"""
+A Neural network that approximates a sinus function defined in "target_function(x)"
+"""
 
 class RegressionNet(torch.nn.Module):
     def __init__(self):
